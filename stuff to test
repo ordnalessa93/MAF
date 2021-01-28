@@ -1,0 +1,13 @@
+TODO - Check linearity of real time for execution : make scripts
+
+Defaults for a blank map:
+map size: 200 x 200 
+number of steps: 25,000 it's halfway between the minimum and the maximum of nos that we want to try and refer to the paper (50000)
+number of agents: 10 because if the relation is more than linear the execution time would decrease pleasantly
+number of targets: 10 it's already what they use in the 500x500 maps
+
+size increments of 100 down to 100
+steps incremenst of 1000 up to 50000 keeping the number of agents
+number of agents from 2 to 20 with step 2 units
+number of targets from 5 to 20 with steps of 5
+
